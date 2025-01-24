@@ -49,3 +49,22 @@ output = remove_islands_no_diagonals(matrix)
 # Print the output
 for row in output:
     print(row)
+
+print('ex-2')
+
+# Example input
+matrix = [
+    [1, 0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0, 1],
+    [0, 0, 1, 0, 1, 1],
+    [1, 1, 1, 0, 1, 0],
+    [1, 0, 1, 1, 0, 0],
+    [1, 0, 0, 0, 0, 1],
+]
+
+# Removing islands
+output = remove_islands_no_diagonals(matrix)
+
+# Print the output
+for row in output:
+    print(row)
